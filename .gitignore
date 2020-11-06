@@ -1,0 +1,16 @@
+node_modules/**/*
+npm-debug.*
+*.mobileprovision
+*.orig.*
+web-build/
+
+/lib
+
+.DS_Store
+
+package-lock.json
+yarn.lock
+yarn-error.log
+
+.idea
+.vscode

@@ -1,0 +1,33 @@
+{
+  "name": "stripe-axios",
+  "version": "0.0.1",
+  "description": "Axios library for stripe",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "rm -rf lib && tsc",
+    "lint": "eslint . --fix && tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/dommangetnicolas/stripe-axios.git"
+  },
+  "keywords": [
+    "stripe",
+    "axios",
+    "https"
+  ],
+  "author": "Nicolas Dommanget-Muller <contact@nicolas-dmg.fr>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dommangetnicolas/stripe-axios/issues"
+  },
+  "homepage": "https://github.com/dommangetnicolas/stripe-axios#readme",
+  "devDependencies": {
+    "eslint": "^7.12.1",
+    "typescript": "^4.0.5"
+  },
+  "peerDependencies": {
+    "axios": "*"
+  }
+}

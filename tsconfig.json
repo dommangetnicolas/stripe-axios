@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "lib": ["esnext", "DOM"],
+    "target": "es5",
+    "module": "commonjs",
+    "strict": true,
+    "noResolve": false,
+    "noImplicitAny": false,
+    "removeComments": true,
+    "allowJs": true,
+    "declaration": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+
+    "outDir": "./lib",
+    "rootDir": "./src",
+  },
+  "include": ["src"],
+  "exclude": ["node_modules"]
+}
