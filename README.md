@@ -26,6 +26,12 @@ const stripeAxios = new Stripe('pk_test_TYooMQauvdEDq54NiTphI7jx');
 
 Replace this sample stripe publishable key by yours.
 
+## Feature availables
+
+|   |   |
+|---|---|
+| **Create a paymentMethod**   |  ``stripeAxios.paymentMethods.create`` |
+
 ---
 
 ## Clone
