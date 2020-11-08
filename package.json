@@ -2,10 +2,10 @@
   "name": "stripe-axios",
   "version": "0.0.1-beta.1",
   "description": "Axios library for stripe",
-  "main": "lib/stripe.js",
-  "types": "lib/stripe.d.ts",
+  "main": "lib/index.js",
+  "types": "lib/types/index.d.ts",
   "scripts": {
-    "build": "rm -rf lib && tsc",
+    "build": "rm -rf lib && tsc && cp -r ./src/types ./lib/types",
     "lint": "eslint . --fix && tsc"
   },
   "repository": {

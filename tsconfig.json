@@ -8,12 +8,10 @@
     "noImplicitAny": false,
     "removeComments": true,
     "allowJs": true,
-    "declaration": true,
     "resolveJsonModule": true,
     "esModuleInterop": true,
-    "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
-    "typeRoots": ["../node_modules/@types", "../types", "../enums"],
+    "typeRoots": ["../node_modules/@types", "./types", "../enums"],
 
     "outDir": "./lib",
     "rootDir": "./src",

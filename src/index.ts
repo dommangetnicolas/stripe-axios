@@ -1,12 +1,11 @@
-import { AxiosInstance } from "axios"
+import resources from './resources';
 import { initAxios } from "./utils/axios.utils";
 
-import resources from './resources'
 
-export default class Stripe {
-    protected axios: AxiosInstance;
+class StripeAxios {
+    axios;
 
-    constructor(apiKey: string) {
+    constructor(apiKey) {
         this.axios = initAxios(apiKey)
 
         for (const name in resources) {
@@ -15,5 +14,7 @@ export default class Stripe {
         }
     }
 
-    public paymentMethods = resources.paymentMethods
+    paymentMethods = resources.paymentMethods
 }
+
+export default StripeAxios
