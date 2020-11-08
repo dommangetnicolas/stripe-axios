@@ -1,6 +1,6 @@
 {
   "name": "stripe-axios",
-  "version": "0.0.1-beta.1",
+  "version": "0.0.1-beta.2",
   "description": "Axios library for stripe",
   "main": "lib/index.js",
   "types": "lib/types/index.d.ts",
