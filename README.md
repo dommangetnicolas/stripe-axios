@@ -28,7 +28,7 @@ Replace this sample stripe publishable key by yours.
 
 ## Feature availables
 
-|   |   |
+| Feature  | Method  |
 |---|---|
 | **Create a paymentMethod**   |  ``stripeAxios.paymentMethods.create`` |
 
